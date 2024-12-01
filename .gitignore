@@ -1,18 +1,18 @@
-# Ignore Node.js dependencies
+# Ignore frontend node_modules
 frontend/vrvsecurity/node_modules/
 
-# Ignore Python cache files and migrations
-__pycache__/
-*.py[cod]
-migrations/
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore Django migrations
+*/migrations/
 
 # Ignore environment files
-.env
+*.env
 
-# Ignore IDE configurations
-.vscode/
-.idea/
-
-#Db
-*.sqlite3
-db.sqlite3
+# Ignore logs
+*.log
