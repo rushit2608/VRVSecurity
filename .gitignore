@@ -1,0 +1,14 @@
+# Ignore Node.js dependencies
+frontend/vrvsecurity/node_modules/
+
+# Ignore Python cache files and migrations
+__pycache__/
+*.py[cod]
+migrations/
+
+# Ignore environment files
+.env
+
+# Ignore IDE configurations
+.vscode/
+.idea/
