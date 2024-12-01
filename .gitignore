@@ -12,3 +12,7 @@ migrations/
 # Ignore IDE configurations
 .vscode/
 .idea/
+
+#Db
+*.sqlite3
+db.sqlite3
